@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ChevronDown, Check } from "@/components/icons";
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/Popover";
 import { Button } from "@/components/ui/Button";
 import { ButtonGroup } from "@/components/ui/ButtonGroup";
 import { Menu } from "@/components/ui/Menu";

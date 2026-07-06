@@ -3,7 +3,7 @@ import { format, parse, isValid } from 'date-fns';
 import { DateField } from './DateField';
 import { DatePickerCalendar } from './DatePickerCalendar';
 import { IconButton } from './IconButton';
-import { Popover, PopoverTrigger, PopoverContent } from './popover';
+import { Popover, PopoverTrigger, PopoverContent } from './Popover';
 import { Calendar as CalendarIcon } from '@/components/icons/Calendar';
 import styles from './DatePicker.module.css';
 

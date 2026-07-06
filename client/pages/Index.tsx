@@ -6,7 +6,7 @@ import DisplayDashboard from "../features/advertising/DisplayDashboard";
 import DisplayAdvertisingSidebar from "../features/advertising/DisplayAdvertisingSidebar";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import { Button } from "../components/ui/Button";
-import { Popover, PopoverTrigger, PopoverContent } from "../components/ui/popover";
+import { Popover, PopoverTrigger, PopoverContent } from "../components/ui/Popover";
 import { Menu } from "../components/ui/Menu";
 import { MenuItem } from "../components/ui/MenuItem";
 import { MastHead } from "../components/ui/MastHead";

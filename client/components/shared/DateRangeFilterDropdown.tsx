@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ChevronDown, Clock } from "@/components/icons";
 import { DateField } from "@/components/ui/DateField";
 import { Button } from "@/components/ui/Button";
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/Popover";
 import { Calendar } from "@/components/ui/calendar";
 import { NavList, NavListItem } from "@/components/ui/NavList";
 import { format } from "date-fns";

@@ -10,7 +10,7 @@ import { Button } from "../components/ui/Button";
 import { Select, SelectItem } from "../components/ui/Select";
 import { Chip } from "../components/ui/Chip";
 import { Checkbox } from "../components/ui/Checkbox";
-import { Popover, PopoverTrigger, PopoverContent } from "../components/ui/popover";
+import { Popover, PopoverTrigger, PopoverContent } from "../components/ui/Popover";
 import { Menu } from "../components/ui/Menu";
 import { MenuItem } from "../components/ui/MenuItem";
 import { Divider } from "../components/ui/Divider";

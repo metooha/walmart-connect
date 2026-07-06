@@ -7,7 +7,7 @@ import { Link } from "@/components/ui/Link";
 import { LinkButton } from "@/components/ui/LinkButton";
 import { Checkbox } from "@/components/ui/Checkbox";
 import { Alert } from "@/components/ui/Alert";
-import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/popover";
+import { Popover, PopoverTrigger, PopoverContent } from "@/components/ui/Popover";
 import { DataTable, DataTableHead, DataTableBody } from '@/components/ui/DataTable';
 import { DataTableRow } from '@/components/ui/DataTableRow';
 import { DataTableHeader } from '@/components/ui/DataTableHeader';

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Popover, PopoverContent, PopoverTrigger, PopoverArrow } from "@/components/ui/popover";
+import { Popover, PopoverContent, PopoverTrigger, PopoverArrow } from "@/components/ui/Popover";
 import { Divider } from "@/components/ui/Divider";
 import { Button } from "@/components/ui/Button";
 

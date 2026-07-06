@@ -6,8 +6,8 @@ import SponsoredSearchSidebar from "../features/sponsored-search/SponsoredSearch
 import MartyFloatingPanel from "../features/marty/MartyFloatingPanel";
 import { MastHead } from "../components/ui/MastHead";
 import type { MediaSolution } from "../components/ui/MediaSolutionsDropdown";
-import { Button } from "../components/ui/button";
-import { Popover, PopoverTrigger, PopoverContent, PopoverArrow } from "../components/ui/popover";
+import { Button } from "../components/ui/Button";
+import { Popover, PopoverTrigger, PopoverContent, PopoverArrow } from "../components/ui/Popover";
 import { Divider } from "../components/ui/Divider";
 import { OLQTag } from "../components/ui/olq-tag";
 import CleaningSpray from "../components/icons/CleaningSpray";

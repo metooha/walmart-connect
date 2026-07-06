@@ -8,7 +8,7 @@ import { Checkbox } from "../components/ui/Checkbox";
 import { MastHead } from "../components/ui/MastHead";
 import { Tabs, TabList, Tab } from "../components/ui/Tab";
 import { MediaSolution } from "../components/ui/MediaSolutionsDropdown";
-import { Popover, PopoverTrigger, PopoverContent } from "../components/ui/popover";
+import { Popover, PopoverTrigger, PopoverContent } from "../components/ui/Popover";
 import { Alert } from "../components/ui/Alert";
 import { Link } from "../components/ui/Link";
 import { DateField } from "../components/ui/DateField";

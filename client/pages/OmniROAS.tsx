@@ -5,7 +5,7 @@ import SponsoredSearchSidebar from "../features/sponsored-search/SponsoredSearch
 import MartyFloatingPanel from "../features/marty/MartyFloatingPanel";
 import { MastHead } from "../components/ui/MastHead";
 import type { MediaSolution } from "../components/ui/MediaSolutionsDropdown";
-import { Button } from "../components/ui/button";
+import { Button } from "../components/ui/Button";
 import { Divider } from "../components/ui/Divider";
 import { OLQTag } from "../components/ui/olq-tag";
 import CleaningSpray from "../components/icons/CleaningSpray";
