@@ -1,0 +1,248 @@
+.dashboard {
+  padding: var(--ld-primitive-scale-space-300);
+  background: var(--ld-semantic-color-background);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--ld-primitive-scale-space-400);
+  flex-wrap: wrap;
+  gap: var(--ld-primitive-scale-space-200);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ld-semantic-color-text);
+  margin: 0;
+}
+
+.filters {
+  display: flex;
+  gap: var(--ld-primitive-scale-space-150);
+  align-items: center;
+}
+
+.dateButton {
+  display: flex;
+  align-items: center;
+  gap: var(--ld-primitive-scale-space-100);
+  padding: var(--ld-primitive-scale-space-100) var(--ld-primitive-scale-space-150);
+  background: var(--ld-semantic-color-surface);
+  border: 1px solid var(--ld-semantic-color-border);
+  border-radius: var(--ld-primitive-scale-borderradius-100);
+  font-size: var(--ld-semantic-font-body-small-size);
+  color: var(--ld-semantic-color-text);
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.dateButton:hover {
+  background: var(--ld-semantic-color-surface-hovered);
+}
+
+.dateButton svg {
+  width: 16px;
+  height: 16px;
+  color: var(--ld-semantic-color-text-subtle);
+}
+
+.performanceSummary {
+  background: var(--ld-semantic-color-surface);
+  border: 1px solid var(--ld-semantic-color-separator);
+  border-radius: var(--ld-primitive-scale-borderradius-200);
+  padding: var(--ld-primitive-scale-space-300);
+  margin-bottom: var(--ld-primitive-scale-space-300);
+}
+
+.summaryHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--ld-primitive-scale-space-300);
+}
+
+.summaryHeader h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ld-semantic-color-text);
+  margin: 0;
+}
+
+.summaryActions {
+  display: flex;
+  gap: var(--ld-primitive-scale-space-100);
+}
+
+.iconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: none;
+  border-radius: var(--ld-primitive-scale-borderradius-50);
+  color: var(--ld-semantic-color-text-subtle);
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.iconButton:hover {
+  background: var(--ld-semantic-color-surface-hovered);
+  color: var(--ld-semantic-color-text);
+}
+
+.metricsGrid {
+  display: flex;
+  gap: var(--ld-primitive-scale-space-200);
+  overflow-x: auto;
+  padding-bottom: var(--ld-primitive-scale-space-100);
+}
+
+.metricCard {
+  min-width: 200px;
+  padding: var(--ld-primitive-scale-space-200);
+  background: var(--ld-semantic-color-background);
+  border: 1px solid var(--ld-semantic-color-separator);
+  border-radius: var(--ld-primitive-scale-borderradius-100);
+}
+
+.metricHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--ld-primitive-scale-space-100);
+}
+
+.metricLabel {
+  font-size: var(--ld-semantic-font-body-small-size);
+  color: var(--ld-semantic-color-text-subtle);
+  line-height: 1.4;
+}
+
+.metricActions {
+  display: flex;
+  gap: var(--ld-primitive-scale-space-50);
+  align-items: center;
+  color: var(--ld-semantic-color-text-subtlest);
+}
+
+.metricActions svg {
+  width: 14px;
+  height: 14px;
+}
+
+.closeButton {
+  background: transparent;
+  border: none;
+  color: var(--ld-semantic-color-text-subtlest);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeButton:hover {
+  color: var(--ld-semantic-color-text);
+}
+
+.metricValue {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--ld-semantic-color-text);
+}
+
+.scrollButton {
+  min-width: 40px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ld-semantic-color-background);
+  border: 1px solid var(--ld-semantic-color-separator);
+  border-radius: var(--ld-primitive-scale-borderradius-100);
+  color: var(--ld-semantic-color-text-subtle);
+  cursor: pointer;
+}
+
+.scrollButton:hover {
+  background: var(--ld-semantic-color-surface-hovered);
+  color: var(--ld-semantic-color-text);
+}
+
+.chartContainer {
+  background: var(--ld-semantic-color-surface);
+  border: 1px solid var(--ld-semantic-color-separator);
+  border-radius: var(--ld-primitive-scale-borderradius-200);
+  padding: var(--ld-primitive-scale-space-300);
+  margin-bottom: var(--ld-primitive-scale-space-300);
+  min-height: 400px;
+}
+
+.chartPlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--ld-semantic-color-text-subtle);
+}
+
+.tableContainer {
+  background: var(--ld-semantic-color-surface);
+  border: 1px solid var(--ld-semantic-color-separator);
+  border-radius: var(--ld-primitive-scale-borderradius-200);
+  overflow: auto;
+}
+
+.dataTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--ld-semantic-font-body-small-size);
+}
+
+.dataTable thead {
+  background: var(--ld-semantic-color-background);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.dataTable th {
+  padding: var(--ld-primitive-scale-space-150) var(--ld-primitive-scale-space-200);
+  text-align: left;
+  font-weight: 600;
+  color: var(--ld-semantic-color-text);
+  border-bottom: 1px solid var(--ld-semantic-color-separator);
+  white-space: nowrap;
+}
+
+.dataTable td {
+  padding: var(--ld-primitive-scale-space-150) var(--ld-primitive-scale-space-200);
+  color: var(--ld-semantic-color-text);
+  border-bottom: 1px solid var(--ld-semantic-color-separator);
+  white-space: nowrap;
+}
+
+.dataTable tbody tr:hover {
+  background: var(--ld-semantic-color-surface-hovered);
+}
+
+.dataTable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dateButton,
+  .iconButton,
+  .scrollButton {
+    transition: none;
+  }
+}

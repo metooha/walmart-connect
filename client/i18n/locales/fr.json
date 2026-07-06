@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "campaigns": "Campagnes",
+    "adGroups": "Groupes d'annonces",
+    "items": "Articles",
+    "reports": "Rapports",
+    "settings": "Paramètres",
+    "help": "Aide et FAQ"
+  },
+  "header": {
+    "greeting": "Bonjour, {{name}}",
+    "recommendations": "Recommandations",
+    "discoverOpportunities": "Découvrez des opportunités pour améliorer les performances de vos campagnes.",
+    "review": "Examiner",
+    "recommendationsAvailable": "{{count}} recommandations disponibles"
+  },
+  "goals": {
+    "awareness": "Notoriété",
+    "engagement": "Engagement",
+    "conversion": "Conversion",
+    "awarenessDesc": "Augmenter la portée et la visibilité",
+    "engagementDesc": "Générer plus de clics et d'interactions",
+    "conversionDesc": "Augmenter les ventes et le ROAS"
+  },
+  "metrics": {
+    "impressions": "Impressions",
+    "ecpm": "eCPM",
+    "spend": "Dépenses",
+    "roas": "ROAS",
+    "totalRoas": "ROAS total",
+    "ctr": "CTR",
+    "clicks": "Clics",
+    "delivery": "Diffusion",
+    "inStore": "En magasin",
+    "pickup": "Retrait",
+    "totalAttributedSales": "Ventes attribuées totales",
+    "totalAttributedTransactions": "Transactions attribuées totales",
+    "totalAttributedUnits": "Unités attribuées totales",
+    "transactions": "Transactions"
+  },
+  "filters": {
+    "attributionWindow": "Fenêtre d'attribution",
+    "dateRange": "Plage de dates",
+    "last7Days": "7 derniers jours",
+    "last30Days": "30 derniers jours",
+    "allFilters": "Tous les filtres",
+    "paceOptions": "Options de rythme",
+    "onTrack": "En bonne voie",
+    "atRisk": "À risque",
+    "completed": "Terminé",
+    "clearAll": "Tout effacer",
+    "apply": "Appliquer",
+    "type": "Type",
+    "groupBy": "Grouper par",
+    "campaignGoal": "Objectif de campagne",
+    "1dayAttribution": "Attribution 1 jour",
+    "7dayAttribution": "Attribution 7 jours",
+    "14dayAttribution": "Attribution 14 jours",
+    "28dayAttribution": "Attribution 28 jours"
+  },
+  "status": {
+    "live": "Active",
+    "scheduled": "Planifiée",
+    "paused": "En pause",
+    "completed": "Terminée",
+    "archived": "Archivée",
+    "inFlight": "En cours"
+  },
+  "table": {
+    "campaignName": "Nom de la campagne",
+    "topPerformingByROAS": "Meilleures performances par ROAS",
+    "topCampaigns": "Meilleures campagnes",
+    "topAdGroups": "Meilleurs groupes d'annonces",
+    "topTactics": "Meilleures tactiques",
+    "backToSchoolElectronics": "Électronique de rentrée scolaire",
+    "holidayGroceryEssentials": "Essentiels d'épicerie pour les fêtes",
+    "summerOutdoorLiving": "Vie en plein air d'été",
+    "petSuppliesPromo": "Promo fournitures pour animaux",
+    "homeOrganizationQ4": "Organisation maison Q4"
+  },
+  "charts": {
+    "performanceSummary": "Résumé des performances",
+    "performanceSummaryDesc": "Une brève description de cette carte.",
+    "totalAttributedSales": "Ventes attribuées totales",
+    "totalROAS": "ROAS total",
+    "buyerAnalysis": "Analyse des acheteurs",
+    "buyerAnalysisDesc": "Une brève description de cette carte.",
+    "newBuyers": "Nouveaux acheteurs",
+    "purchased1Time": "Acheté 1 fois",
+    "purchased2Plus": "Acheté 2+ fois",
+    "purchased3Plus": "Acheté 3+ fois",
+    "overall": "Global",
+    "buyerType": "Type : {{type}}"
+  },
+  "dashboard": {
+    "potentialIncreaseImpressions": "Augmentation potentielle des impressions",
+    "potentialIncreaseClicks": "Augmentation potentielle des clics",
+    "potentialIncreaseTransactions": "Augmentation potentielle des transactions",
+    "appliedAndDismissed": "Recommandations appliquées et rejetées"
+  },
+  "recommendations": {
+    "activeRecommendations": "Recommandations actives ({{count}})",
+    "applied": "Appliquées ({{count}})",
+    "dismissed": "Rejetées ({{count}})",
+    "recommendation": "Recommandation",
+    "dateApplied": "Date d'application",
+    "impact": "Impact",
+    "action": "Action",
+    "restore": "Restaurer",
+    "cancel": "Annuler",
+    "dismiss": "Rejeter",
+    "applyRecommendation": "Appliquer la recommandation",
+    "applySelected": "Appliquer la sélection",
+    "potentialIncrease": "Augmentation potentielle de {{metric}}"
+  },
+  "actions": {
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "apply": "Appliquer",
+    "close": "Fermer",
+    "viewMore": "Voir plus"
+  },
+  "language": {
+    "label": "Langue",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français"
+  }
+}

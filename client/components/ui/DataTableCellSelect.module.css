@@ -1,0 +1,12 @@
+/* DataTableCellSelect & DataTableHeaderSelect */
+.cell {
+  padding: var(--ld-primitive-scale-space-200, 16px);
+  vertical-align: middle;
+  width: 48px;
+  text-align: center;
+}
+
+/* Header select cell matches header background */
+th.cell {
+  background: var(--ld-semantic-color-fill-surface-subtle, #F8F8F8);
+}

@@ -1,0 +1,17 @@
+.appCard {
+  background-color: var(--ld-semantic-color-surface);
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: var(--ld-semantic-elevation-100);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.appCard:hover {
+  box-shadow: var(--ld-semantic-elevation-200);
+  transform: translateY(-2px);
+}
+
+.appCard:active {
+  transform: translateY(0);
+}

@@ -1,0 +1,14 @@
+/* DataTableCellActions */
+.cell {
+  padding: var(--ld-primitive-scale-space-100, 8px) var(--ld-primitive-scale-space-200, 16px);
+  vertical-align: middle;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.actions {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ld-primitive-scale-space-100, 8px);
+  justify-content: flex-end;
+}

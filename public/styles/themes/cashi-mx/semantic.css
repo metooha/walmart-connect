@@ -1,0 +1,23 @@
+/**
+ * Cashi MX Theme
+ * Generated from LivingDesign Airtable Sync + LD Base
+ * 
+ * INHERITANCE: Inherits LD Base directly
+ * 
+ * Cashi MX brand color: #6212b2 (purple)
+ * Mexico financial services
+ */
+
+:root {
+  /* Cashi MX brand colors - PURPLE */
+  --ld-semantic-color-action-fill-primary: var(--ld-primitive-color-purple-100, #6212b2);
+  --ld-semantic-color-action-fill-primary-focused: var(--ld-primitive-color-purple-120, #500f92);
+  --ld-semantic-color-action-fill-primary-hovered: var(--ld-primitive-color-purple-120, #500f92);
+  --ld-semantic-color-action-fill-primary-pressed: var(--ld-primitive-color-purple-100, #6212b2);
+  
+  --ld-semantic-color-text-brand: var(--ld-primitive-color-purple-100, #6212b2);
+  --ld-semantic-color-border-brand: var(--ld-primitive-color-purple-100, #6212b2);
+  --ld-semantic-color-border-activated: var(--ld-primitive-color-purple-100, #6212b2);
+  
+  /* Inherits all other tokens from LD Base */
+}

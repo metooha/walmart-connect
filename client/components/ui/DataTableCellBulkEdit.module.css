@@ -1,0 +1,60 @@
+/* DataTableCellBulkEditTextArea */
+.cell {
+  padding: 0;
+  vertical-align: middle;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--ld-primitive-scale-space-100, 8px) var(--ld-primitive-scale-space-200, 16px);
+  gap: var(--ld-primitive-scale-space-50, 4px);
+}
+
+/* Textarea */
+.textarea {
+  width: 100%;
+  min-height: 36px;
+  padding: var(--ld-primitive-scale-space-100, 8px);
+  border: var(--ld-semantic-scale-border-width-interactive, 1px) solid var(--ld-semantic-color-field-border, #74767C);
+  border-radius: var(--ld-primitive-scale-border-radius-50, 4px);
+  font-family: var(--ld-semantic-font-body-medium-family, var(--ld-semantic-font-family-sans));
+  font-size: var(--ld-semantic-font-body-medium-size, 16px);
+  line-height: var(--ld-semantic-font-body-medium-line-height, 1.5);
+  color: var(--ld-semantic-color-text, #2E2F32);
+  background: var(--ld-semantic-color-field-fill, #FFFFFF);
+  resize: none;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.textareaNumeric {
+  text-align: right;
+  font-family: var(--ld-semantic-font-body-mono-medium-family, 'Everyday Sans Mono TT', monospace);
+}
+
+.textarea:focus {
+  outline: var(--ld-semantic-scale-border-width-interactive-focused, 2px) solid var(--ld-semantic-color-action-focus-outline, #0071DC);
+  outline-offset: -2px;
+  border-color: transparent;
+}
+
+.textareaError {
+  border-color: var(--ld-semantic-color-field-border-negative, #EA1100);
+  background: var(--ld-semantic-color-field-fill-negative, #FFF0EE);
+}
+
+/* Helper text below textarea */
+.helperText {
+  font-family: var(--ld-semantic-font-caption-family, var(--ld-semantic-font-family-sans));
+  font-size: var(--ld-semantic-font-caption-size, 12px);
+  line-height: var(--ld-semantic-font-caption-lineheight, 1.33);
+}
+
+.editedText {
+  color: var(--ld-semantic-color-text-edited-bold, #6D3B00);
+}
+
+.errorText {
+  color: var(--ld-semantic-color-text-negative, #B8260D);
+}

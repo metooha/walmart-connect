@@ -1,0 +1,347 @@
+.pickerContainer {
+  display: flex;
+  background: var(--ld-semantic-color-surface, #fff);
+  border: 1px solid var(--ld-semantic-color-separator, #e3e4e5);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  overflow: hidden;
+  min-width: 720px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 175px;
+  flex-shrink: 0;
+  border-right: 1px solid var(--ld-semantic-color-separator, #e3e4e5);
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.compareSection {
+  padding: 0 16px 12px;
+  border-bottom: 1px solid var(--ld-semantic-color-separator, #e3e4e5);
+}
+
+.compareRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.toggle {
+  width: 36px;
+  height: 20px;
+  border-radius: 10px;
+  background: var(--ld-semantic-color-separator, #c7c8cb);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+  transition: background 0.2s;
+  padding: 0;
+}
+
+.toggleOn {
+  background: var(--ld-semantic-color-action-fill-primary, #0071dc);
+}
+
+.toggleThumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+  transition: left 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.toggleOn .toggleThumb {
+  left: 18px;
+}
+
+.compareLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ld-semantic-color-text, #2e2f32);
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+}
+
+.compareDesc {
+  font-size: 12px;
+  color: var(--ld-semantic-color-text-subtle, #46474a);
+  line-height: 1.4;
+  margin: 0;
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+}
+
+.presets {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0 0;
+}
+
+.presetBtn {
+  text-align: left;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: var(--ld-semantic-color-link, #0071dc);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+  transition: background 0.15s;
+}
+
+.presetBtn:hover {
+  background: var(--ld-semantic-color-fill-hover, #f1f3f6);
+}
+
+.presetActive {
+  background: var(--ld-semantic-color-action-fill-secondary, #edf4ff);
+  color: var(--ld-semantic-color-link, #0071dc);
+  font-weight: 600;
+}
+
+/* Calendar section */
+.calendarSection {
+  flex: 1;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dateInputRow {
+  display: flex;
+  gap: 16px;
+}
+
+.dateInputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dateInputLabel {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ld-semantic-color-text, #2e2f32);
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+}
+
+.dateInput {
+  width: 140px;
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid var(--ld-semantic-color-separator, #c7c8cb);
+  border-radius: 4px;
+  font-size: 14px;
+  color: var(--ld-semantic-color-text, #2e2f32);
+  background: var(--ld-semantic-color-surface, #fff);
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.dateInput:focus,
+.dateInputActive {
+  border-color: var(--ld-semantic-color-action-fill-primary, #0071dc);
+}
+
+.calendarsRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.navArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin-top: 28px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: var(--ld-semantic-color-text, #2e2f32);
+  border-radius: 4px;
+  flex-shrink: 0;
+  transition: background 0.15s;
+}
+
+.navArrow:hover {
+  background: var(--ld-semantic-color-fill-hover, #f1f3f6);
+}
+
+/* Individual calendar */
+.calendar {
+  flex: 1;
+}
+
+.calendarHeader {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ld-semantic-color-text, #2e2f32);
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+  padding: 0 0 8px;
+}
+
+.daysOfWeek {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 4px;
+}
+
+.daysOfWeek span {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ld-semantic-color-text-subtle, #46474a);
+  padding: 4px 0;
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+}
+
+.daysGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.dayCell {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  aspect-ratio: 1;
+  font-size: 13px;
+  color: var(--ld-semantic-color-text, #2e2f32);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+  border-radius: 0;
+  transition: background 0.1s;
+}
+
+.dayCell:hover:not(.dayStart):not(.dayEnd) {
+  background: var(--ld-semantic-color-fill-hover, #f1f3f6);
+  border-radius: 50%;
+}
+
+.dayInRange {
+  background: var(--ld-semantic-color-action-fill-secondary, #edf4ff);
+  border-radius: 0;
+}
+
+.dayStart,
+.dayEnd {
+  background: var(--ld-semantic-color-action-fill-primary, #0071dc) !important;
+  color: #fff !important;
+  border-radius: 50%;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.dayToday {
+  text-decoration: underline;
+}
+
+/* Jump to today */
+.jumpRow {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4px;
+}
+
+.jumpLink {
+  font-size: 13px;
+  color: var(--ld-semantic-color-link, #0071dc);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+}
+
+.jumpLink:hover {
+  color: var(--ld-semantic-color-link, #0053e2);
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--ld-semantic-color-separator, #e3e4e5);
+  padding-top: 12px;
+}
+
+.timezone {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--ld-semantic-color-text-subtle, #46474a);
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+}
+
+.timezoneIcon {
+  flex-shrink: 0;
+  color: var(--ld-semantic-color-text-subtle, #46474a);
+}
+
+.footerButtons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cancelBtn {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ld-semantic-color-text, #2e2f32);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+  padding: 0 4px;
+  text-decoration: underline;
+}
+
+.cancelBtn:hover {
+  opacity: 0.8;
+}
+
+.applyBtn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--ld-semantic-color-action-fill-primary, #0071dc);
+  border: none;
+  border-radius: 100px;
+  padding: 8px 24px;
+  cursor: pointer;
+  font-family: var(--ld-semantic-font-family-sans, 'Everyday Sans UI', sans-serif);
+  transition: background 0.15s;
+}
+
+.applyBtn:hover {
+  background: var(--ld-semantic-color-action-fill-primary-hovered, #0053e2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toggle,
+  .toggleThumb,
+  .dayCell,
+  .navArrow,
+  .applyBtn {
+    transition: none;
+  }
+}

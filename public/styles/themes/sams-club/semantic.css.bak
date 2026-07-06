@@ -1,0 +1,40 @@
+/**
+ * Sam's Club Theme
+ * Generated from LivingDesign Airtable Sync + LD Base
+ *
+ * INHERITANCE: LD Base → WCP → Sam's Club
+ * Inherits WCP commerce tokens and Customer persona
+ *
+ * Sam's Club brand color: #0062ad (blue)
+ * Font family: Gibson
+ */
+
+:root {
+  /* Sam's Club brand colors - LIGHTER BLUE */
+  --ld-semantic-color-action-fill-primary: var(--ld-primitive-color-blue-100, #0086ed);
+  --ld-semantic-color-action-fill-primary-hovered: var(--ld-primitive-color-blue-110, #007bd9);
+  --ld-semantic-color-action-fill-primary-focused: var(--ld-primitive-color-blue-110, #007bd9);
+  --ld-semantic-color-action-fill-primary-pressed: var(--ld-primitive-color-blue-130, #0062ad);
+
+  --ld-semantic-color-text-brand: var(--ld-primitive-color-blue-130, #0062ad);
+  --ld-semantic-color-border-brand: var(--ld-primitive-color-blue-130, #0062ad);
+  --ld-semantic-color-border-activated: var(--ld-primitive-color-blue-130, #0062ad);
+
+  --ld-semantic-color-top-nav-fill: var(--ld-primitive-color-blue-130, #0062ad);
+
+  /* Font Family - Gibson (override primitive) */
+  --ld-primitive-font-family-sans: Gibson, 'Helvetica Neue', 'Arial', sans-serif;
+
+  /* Semantic font overrides */
+  --ld-semantic-font-body-large-family: Gibson, 'Helvetica Neue', 'Arial', sans-serif;
+  --ld-semantic-font-body-medium-family: Gibson, 'Helvetica Neue', 'Arial', sans-serif;
+  --ld-semantic-font-body-small-family: Gibson, 'Helvetica Neue', 'Arial', sans-serif;
+  --ld-semantic-font-caption-family: Gibson, 'Helvetica Neue', 'Arial', sans-serif;
+  --ld-semantic-font-display-large-family: Gibson, 'Helvetica Neue', 'Arial', sans-serif;
+  --ld-semantic-font-display-small-family: Gibson, 'Helvetica Neue', 'Arial', sans-serif;
+  --ld-semantic-font-heading-large-family: Gibson, 'Helvetica Neue', 'Arial', sans-serif;
+  --ld-semantic-font-heading-medium-family: Gibson, 'Helvetica Neue', 'Arial', sans-serif;
+  --ld-semantic-font-heading-small-family: Gibson, 'Helvetica Neue', 'Arial', sans-serif;
+
+  /* Inherits WCP commerce tokens and all LD Base tokens */
+}

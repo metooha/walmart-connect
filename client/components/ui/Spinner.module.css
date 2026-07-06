@@ -1,0 +1,72 @@
+/* Base spinner container */
+.spinner {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+/* SVG element */
+.spinner__svg {
+  display: block;
+  animation: spinnerRotate 1s linear infinite;
+  shape-rendering: geometricPrecision;
+}
+
+/* Size variants */
+.spinner--size-large {
+  width: 48px;
+  height: 48px;
+}
+
+.spinner--size-large .spinner__svg {
+  width: 48px;
+  height: 48px;
+}
+
+.spinner--size-small {
+  width: 24px;
+  height: 24px;
+}
+
+.spinner--size-small .spinner__svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Color variants using LD 3.5 semantic tokens */
+.spinner--color-neutral .spinner__path {
+  fill: var(--ld-semantic-color-loading, #74767c);
+}
+
+.spinner--color-white .spinner__path {
+  fill: var(--ld-semantic-color-loading-white, #ffffff);
+}
+
+/* Path opacity stagger for "chasing" effect */
+.spinner__path {
+  opacity: calc(1 - (var(--path-index) * 0.15));
+  transform-origin: center;
+}
+
+/* Rotation animation */
+@keyframes spinnerRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Respect user motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .spinner__svg {
+    animation-duration: 2s;
+  }
+}
+
+/* Performance optimization */
+.spinner__svg {
+  will-change: transform;
+}

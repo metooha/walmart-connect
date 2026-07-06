@@ -1,0 +1,130 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "campaigns": "Campaigns",
+    "adGroups": "Ad groups",
+    "items": "Items",
+    "reports": "Reports",
+    "settings": "Settings",
+    "help": "Help & FAQs"
+  },
+  "header": {
+    "greeting": "Hi, {{name}}",
+    "recommendations": "Recommendations",
+    "discoverOpportunities": "Discover opportunities to improve your campaign performance.",
+    "review": "Review",
+    "recommendationsAvailable": "{{count}} recommendations available"
+  },
+  "goals": {
+    "awareness": "Awareness",
+    "engagement": "Engagement",
+    "conversion": "Conversion",
+    "awarenessDesc": "Increase reach and visibility",
+    "engagementDesc": "Drive more clicks and interactions",
+    "conversionDesc": "Increase sales and ROAS"
+  },
+  "metrics": {
+    "impressions": "Impressions",
+    "ecpm": "eCPM",
+    "spend": "Spend",
+    "roas": "ROAS",
+    "totalRoas": "Total ROAS",
+    "ctr": "CTR",
+    "clicks": "Clicks",
+    "delivery": "Delivery",
+    "inStore": "In-store",
+    "pickup": "Pickup",
+    "totalAttributedSales": "Total attributed sales",
+    "totalAttributedTransactions": "Total attributed transactions",
+    "totalAttributedUnits": "Total attributed units",
+    "transactions": "Transactions"
+  },
+  "filters": {
+    "attributionWindow": "Attribution window",
+    "dateRange": "Date range",
+    "last7Days": "Last 7 days",
+    "last30Days": "Last 30 days",
+    "allFilters": "All Filters",
+    "paceOptions": "Pace Options",
+    "onTrack": "On track",
+    "atRisk": "At risk",
+    "completed": "Completed",
+    "clearAll": "Clear All",
+    "apply": "Apply",
+    "type": "Type",
+    "groupBy": "Group by",
+    "campaignGoal": "Campaign goal",
+    "1dayAttribution": "1 day attribution",
+    "7dayAttribution": "7 day attribution",
+    "14dayAttribution": "14 day attribution",
+    "28dayAttribution": "28 day attribution"
+  },
+  "status": {
+    "live": "Live",
+    "scheduled": "Scheduled",
+    "paused": "Paused",
+    "completed": "Completed",
+    "archived": "Archived",
+    "inFlight": "In-flight"
+  },
+  "table": {
+    "campaignName": "Campaign Name",
+    "topPerformingByROAS": "Top performing by ROAS",
+    "topCampaigns": "Top campaigns",
+    "topAdGroups": "Top ad groups",
+    "topTactics": "Top tactics",
+    "backToSchoolElectronics": "Back to School Electronics",
+    "holidayGroceryEssentials": "Holiday Grocery Essentials",
+    "summerOutdoorLiving": "Summer Outdoor Living",
+    "petSuppliesPromo": "Pet Supplies Promo",
+    "homeOrganizationQ4": "Home Organization Q4"
+  },
+  "charts": {
+    "performanceSummary": "Performance summary",
+    "performanceSummaryDesc": "A short description of this card.",
+    "totalAttributedSales": "Total attributed sales",
+    "totalROAS": "Total ROAS",
+    "buyerAnalysis": "Buyer analysis",
+    "buyerAnalysisDesc": "A short description of this card.",
+    "newBuyers": "New buyers",
+    "purchased1Time": "Purchased 1 time",
+    "purchased2Plus": "Purchased 2+ times",
+    "purchased3Plus": "Purchased 3+ times",
+    "overall": "Overall",
+    "buyerType": "Type: {{type}}"
+  },
+  "dashboard": {
+    "potentialIncreaseImpressions": "Potential increase in impressions",
+    "potentialIncreaseClicks": "Potential increase in clicks",
+    "potentialIncreaseTransactions": "Potential increase in transactions",
+    "appliedAndDismissed": "Applied & dismissed recommendations"
+  },
+  "recommendations": {
+    "activeRecommendations": "Active recommendations ({{count}})",
+    "applied": "Applied ({{count}})",
+    "dismissed": "Dismissed ({{count}})",
+    "recommendation": "Recommendation",
+    "dateApplied": "Date applied",
+    "impact": "Impact",
+    "action": "Action",
+    "restore": "Restore",
+    "cancel": "Cancel",
+    "dismiss": "Dismiss",
+    "applyRecommendation": "Apply recommendation",
+    "applySelected": "Apply selected",
+    "potentialIncrease": "Potential increase in {{metric}}"
+  },
+  "actions": {
+    "cancel": "Cancel",
+    "save": "Save",
+    "apply": "Apply",
+    "close": "Close",
+    "viewMore": "View more"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "es": "Español",
+    "fr": "Français"
+  }
+}

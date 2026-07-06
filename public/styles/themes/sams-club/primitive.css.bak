@@ -1,0 +1,30 @@
+/**
+ * Do not edit directly — Sam's Club Theme
+ * Generated from LivingDesign Airtable Sync + LD Base
+ * 
+ * INHERITANCE: Overrides LD Base primitive colors
+ * Sam's Club uses a lighter, brighter blue scale
+ */
+
+:root {
+  /* Sam's Club Blue Scale (lighter/brighter than base) */
+  --ld-primitive-color-blue-10: #e4f5ff;
+  --ld-primitive-color-blue-20: #d8f2ff;
+  --ld-primitive-color-blue-30: #bae7ff;
+  --ld-primitive-color-blue-40: #9adbff;
+  --ld-primitive-color-blue-50: #7acdff;
+  --ld-primitive-color-blue-60: #59bfff;
+  --ld-primitive-color-blue-70: #39afff;
+  --ld-primitive-color-blue-80: #1ba0ff;
+  --ld-primitive-color-blue-90: #0090fe;
+  --ld-primitive-color-blue-100: #0086ed;
+  --ld-primitive-color-blue-110: #007bd9;
+  --ld-primitive-color-blue-120: #006ec4;
+  --ld-primitive-color-blue-130: #0062ad;
+  --ld-primitive-color-blue-140: #005294;
+  --ld-primitive-color-blue-150: #00427b;
+  --ld-primitive-color-blue-160: #003362;
+  --ld-primitive-color-blue-170: #00234a;
+  --ld-primitive-color-blue-180: #001533;
+  --ld-primitive-color-blue-5: #f0f8fc;
+}
